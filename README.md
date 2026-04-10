@@ -479,7 +479,7 @@ node server.js
 Then open the frontend:
 
 ```bash
-xdg-open ~/rbac-project/frontend/index.html
+python3 -m http.server 8000
 ```
 
 The UI lets you switch between Admin, Manager, and Auditor roles and perform all operations. Authorized operations show **green**, unauthorized ones show **red** with the exact error message from the chaincode.
